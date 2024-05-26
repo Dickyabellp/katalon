@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_MA/Record_Login/Page_Metrodata Academy/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span \u003e\u003e internal:has-text\u003d/^Program$/ \u003e\u003e path",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_MA/Record_Login/Page_Metrodata Academy/path_SMART_LOCATOR.png"
+    }
+  ]
+}
