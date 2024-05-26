@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://metrodataacademy.id/')
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Profile Akun Metrodata Academy/a_Masuk'))
