@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tentang Kami\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1_neighbor.png"
+      "pathToScreenshot": "Reports/20240526_213806/Kelompok 2/20240526_213806/Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1_neighbor.png"
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "internal:role\u003dbutton[name\u003d\"Hendrik Christian\"i]",
       "proposedLocatorMethod": "SMART_LOCATOR",
       "recoveryMethod": "SMART_LOCATOR",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Edit Profile Akun Metrodata Academy/button_Hendrik Christian_SMART_LOCATOR.png"
+      "pathToScreenshot": "Reports/20240526_213806/Kelompok 2/20240526_213806/Object Repository/Page_Edit Profile Akun Metrodata Academy/button_Hendrik Christian_SMART_LOCATOR.png"
     },
     {
       "approved": true,
@@ -28,7 +28,7 @@
       "proposedLocator": "//a[contains(text(),\u0027Akun Saya\u0027)]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Edit Profile Akun Metrodata Academy/a_Akun Saya_link.png"
+      "pathToScreenshot": "Reports/20240526_213806/Kelompok 2/20240526_213806/Object Repository/Page_Edit Profile Akun Metrodata Academy/a_Akun Saya_link.png"
     },
     {
       "approved": true,
@@ -38,7 +38,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Akun Saya\u0027])[1]/following::button[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login Logout Metrodata Academy/button_Keluar_neighbor.png"
+      "pathToScreenshot": "Reports/20240526_213806/Kelompok 2/20240526_213806/Object Repository/Page_Login Logout Metrodata Academy/button_Keluar_neighbor.png"
     }
   ]
 }
