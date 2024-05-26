@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Program,Chrome 124.0.0.0,,,26-05-2024 16:56:09,26-05-2024 16:57:49,1m - 40.076s,PASSED
+,,,,,,,
+Test Cases/Web_MA/Menu_Program_manual,Chrome 124.0.0.0,,,26-05-2024 16:56:09,26-05-2024 16:57:49,1m - 39.783s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,26-05-2024 16:56:10,26-05-2024 16:56:12,2.611s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,26-05-2024 16:56:12,26-05-2024 16:56:12,0.157s,PASSED
+navigateToMaskedUrl(******************************),Chrome 124.0.0.0,,,26-05-2024 16:56:12,26-05-2024 16:56:17,4.076s,PASSED
+"click(findTestObject(""MA_Manual/klik Login""))",Chrome 124.0.0.0,,,26-05-2024 16:56:17,26-05-2024 16:56:19,2.622s,PASSED
+"click(findTestObject(""MA_Manual/Input_Username""))",Chrome 124.0.0.0,,,26-05-2024 16:56:19,26-05-2024 16:56:20,0.457s,PASSED
+"setText(findTestObject(""MA_Manual/Input_Username""), ""Papahgilak@gmail.com"")",Chrome 124.0.0.0,,,26-05-2024 16:56:20,26-05-2024 16:56:20,0.781s,PASSED
+"click(findTestObject(""MA_Manual/Input_Password""))",Chrome 124.0.0.0,,,26-05-2024 16:56:20,26-05-2024 16:56:21,0.497s,PASSED
+"setEncryptedText(findTestObject(""MA_Manual/Input_Password""), ""ANgLrNN9LeX238E+iUxpGw=="")",Chrome 124.0.0.0,,,26-05-2024 16:56:21,26-05-2024 16:56:21,0.553s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Masuk""))",Chrome 124.0.0.0,,,26-05-2024 16:56:21,26-05-2024 16:56:22,0.503s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Program""))",Chrome 124.0.0.0,,,26-05-2024 16:56:22,26-05-2024 16:56:30,7.885s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Detail_MetrodataTraining""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,26-05-2024 16:56:30,26-05-2024 16:56:33,3.650s,PASSED
+"verifyElementText(findTestObject(""MA_Manual/Verify_MetrodataTraining""), ""Metrodata Training"")",Chrome 124.0.0.0,,,26-05-2024 16:56:33,26-05-2024 16:57:04,30.175s,PASSED
+"click(findTestObject(""MA_Manual/Klik_HomeMA""))",Chrome 124.0.0.0,,,26-05-2024 16:57:04,26-05-2024 16:57:09,4.911s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Program""))",Chrome 124.0.0.0,,,26-05-2024 16:57:09,26-05-2024 16:57:14,5.366s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Detail_ITCamp""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,26-05-2024 16:57:14,26-05-2024 16:57:27,12.945s,PASSED
+"verifyElementText(findTestObject(""MA_Manual/Verify_ITCamp""), ""Metrodata IT-Camp"")",Chrome 124.0.0.0,,,26-05-2024 16:57:27,26-05-2024 16:57:27,0.346s,PASSED
+"click(findTestObject(""MA_Manual/Klik_HomeMA""))",Chrome 124.0.0.0,,,26-05-2024 16:57:27,26-05-2024 16:57:28,0.735s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Program""))",Chrome 124.0.0.0,,,26-05-2024 16:57:28,26-05-2024 16:57:34,5.532s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Detail_Internship""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,26-05-2024 16:57:34,26-05-2024 16:57:37,3.597s,PASSED
+"verifyElementText(findTestObject(""MA_Manual/Verify_Internship""), ""Metrodata Internship"")",Chrome 124.0.0.0,,,26-05-2024 16:57:37,26-05-2024 16:57:37,0.379s,PASSED
+"click(findTestObject(""MA_Manual/Klik_HomeMA""))",Chrome 124.0.0.0,,,26-05-2024 16:57:37,26-05-2024 16:57:38,0.724s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Program""))",Chrome 124.0.0.0,,,26-05-2024 16:57:38,26-05-2024 16:57:44,5.475s,PASSED
+"click(findTestObject(""MA_Manual/Klik_Detail_Mengajar""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,26-05-2024 16:57:44,26-05-2024 16:57:48,4.391s,PASSED
+"verifyElementText(findTestObject(""MA_Manual/Verify_Mengajar""), ""Metrodata Mengajar"")",Chrome 124.0.0.0,,,26-05-2024 16:57:48,26-05-2024 16:57:48,0.362s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,26-05-2024 16:57:48,26-05-2024 16:57:49,0.485s,PASSED

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Program" time="100.076" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Program" tests="1" failures="0" errors="0" time="100.076" skipped="0" timestamp="26-05-2024T16:56:09" hostname="dicky - LAPTOP-P5CDFPR4" id="Test Suites/TS_Program">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dicky\\Katalon Studio\\Project_Web_MA\\Reports\\20240526_165600\\TS_Program\\20240526_165600"/>
+         <property name="logFiles" value="C:\\Users\\dicky\\Katalon Studio\\Project_Web_MA\\Reports\\20240526_165600\\TS_Program\\20240526_165600\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dicky - LAPTOP-P5CDFPR4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.76"/>
+         <property name="sessionId" value="07249d098c5a50da383d45d54baf163e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web_MA/Menu_Program_manual" time="99.783" classname="Test Cases/Web_MA/Menu_Program_manual" status="PASSED">
+         <system-out><![CDATA[26-05-2024T16:56:09 - [TEST_CASE][PASSED] - Test Cases/Web_MA/Menu_Program_manual: Test Cases/Web_MA/Menu_Program_manual
+
+26-05-2024T16:56:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T16:56:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T16:56:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T16:56:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T16:56:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T16:56:12 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T16:56:12 - [TEST_STEP][PASSED] - navigateToMaskedUrl(******************************): Navigate to '****************************' successfully
+
+26-05-2024T16:56:17 - [MESSAGE][PASSED] - Navigate to '****************************' successfully
+
+26-05-2024T16:56:17 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/klik Login")): Object: 'Object Repository/MA_Manual/klik Login' is clicked on
+
+26-05-2024T16:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/klik Login' is clicked on
+
+26-05-2024T16:56:19 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Input_Username")): Object: 'Object Repository/MA_Manual/Input_Username' is clicked on
+
+26-05-2024T16:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Input_Username' is clicked on
+
+26-05-2024T16:56:20 - [TEST_STEP][PASSED] - setText(findTestObject("MA_Manual/Input_Username"), "Papahgilak@gmail.com"): Text 'Papahgilak@gmail.com' is set on object 'Object Repository/MA_Manual/Input_Username'
+
+26-05-2024T16:56:20 - [MESSAGE][PASSED] - Text 'Papahgilak@gmail.com' is set on object 'Object Repository/MA_Manual/Input_Username'
+
+26-05-2024T16:56:20 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Input_Password")): Object: 'Object Repository/MA_Manual/Input_Password' is clicked on
+
+26-05-2024T16:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Input_Password' is clicked on
+
+26-05-2024T16:56:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("MA_Manual/Input_Password"), "ANgLrNN9LeX238E+iUxpGw=="): Text ****** has been set on object 'Object Repository/MA_Manual/Input_Password'
+
+26-05-2024T16:56:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MA_Manual/Input_Password'
+
+26-05-2024T16:56:21 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Masuk")): Object: 'Object Repository/MA_Manual/Klik_Masuk' is clicked on
+
+26-05-2024T16:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Masuk' is clicked on
+
+26-05-2024T16:56:22 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Program")): Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:56:30 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Detail_MetrodataTraining"), STOP_ON_FAILURE): Object: 'Object Repository/MA_Manual/Klik_Detail_MetrodataTraining' is clicked on
+
+26-05-2024T16:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Detail_MetrodataTraining' is clicked on
+
+26-05-2024T16:56:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MA_Manual/Verify_MetrodataTraining"), "Metrodata Training"): Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_MetrodataTraining' are matched.
+
+26-05-2024T16:57:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_MetrodataTraining' are matched.
+
+26-05-2024T16:57:04 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_HomeMA")): Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:09 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Program")): Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:14 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Detail_ITCamp"), STOP_ON_FAILURE): Object: 'Object Repository/MA_Manual/Klik_Detail_ITCamp' is clicked on
+
+26-05-2024T16:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Detail_ITCamp' is clicked on
+
+26-05-2024T16:57:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MA_Manual/Verify_ITCamp"), "Metrodata IT-Camp"): Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_ITCamp' are matched.
+
+26-05-2024T16:57:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_ITCamp' are matched.
+
+26-05-2024T16:57:27 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_HomeMA")): Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:28 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Program")): Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:34 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Detail_Internship"), STOP_ON_FAILURE): Object: 'Object Repository/MA_Manual/Klik_Detail_Internship' is clicked on
+
+26-05-2024T16:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Detail_Internship' is clicked on
+
+26-05-2024T16:57:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MA_Manual/Verify_Internship"), "Metrodata Internship"): Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_Internship' are matched.
+
+26-05-2024T16:57:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_Internship' are matched.
+
+26-05-2024T16:57:37 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_HomeMA")): Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_HomeMA' is clicked on
+
+26-05-2024T16:57:38 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Program")): Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Program' is clicked on
+
+26-05-2024T16:57:44 - [TEST_STEP][PASSED] - click(findTestObject("MA_Manual/Klik_Detail_Mengajar"), STOP_ON_FAILURE): Object: 'Object Repository/MA_Manual/Klik_Detail_Mengajar' is clicked on
+
+26-05-2024T16:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MA_Manual/Klik_Detail_Mengajar' is clicked on
+
+26-05-2024T16:57:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MA_Manual/Verify_Mengajar"), "Metrodata Mengajar"): Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_Mengajar' are matched.
+
+26-05-2024T16:57:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MA_Manual/Verify_Mengajar' are matched.
+
+26-05-2024T16:57:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2024T16:57:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2024T16:56:09 - [TEST_SUITE][PASSED] - TS_Program: Test Cases/Web_MA/Menu_Program_manual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
