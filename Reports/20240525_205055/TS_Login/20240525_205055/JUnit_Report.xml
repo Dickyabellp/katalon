@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="132.887" tests="3" failures="1" errors="0">
+   <testsuite name="TS_Login" tests="3" failures="1" errors="0" time="132.887" skipped="0" timestamp="25-05-2024T20:50:59" hostname="RICKY-HARBU - DESKTOP-HARBU" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055"/>
+         <property name="logFiles" value="C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\1716645122009.png, C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\1716645146606.png, C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\1716645170254.png, C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\1716645191974.png"/>
+         <property name="hostName" value="RICKY-HARBU - DESKTOP-HARBU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Firefox 126.0"/>
+         <property name="hostAddress" value="172.20.10.4"/>
+         <property name="sessionId" value="8b88c957-125b-4837-adc9-25882b22badb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="18.964" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[25-05-2024T20:50:59 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+25-05-2024T20:50:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T20:50:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+25-05-2024T20:51:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T20:51:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T20:51:03 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/metrodata-training/list"): Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:51:05 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Metrodata Academy/input__email"), "papahgilak@gmail.com"): Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:51:08 - [MESSAGE][PASSED] - Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:51:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Metrodata Academy/input__password"), "ANgLrNN9LeX238E+iUxpGw=="): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:51:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1")): Object: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' is clicked on
+
+25-05-2024T20:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' is clicked on
+
+25-05-2024T20:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Metrodata Academy/button_Keluar")): Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+25-05-2024T20:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+25-05-2024T20:51:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T20:51:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Normal" time="21.238" classname="Test Cases/Login_Normal" status="PASSED">
+         <system-out><![CDATA[25-05-2024T20:51:18 - [TEST_CASE][PASSED] - Test Cases/Login_Normal: Test Cases/Login_Normal
+
+25-05-2024T20:51:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T20:51:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+25-05-2024T20:51:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T20:51:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T20:51:20 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/metrodata-training/list"): Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:51:25 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Metrodata Academy/input__email"), username): Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:51:28 - [MESSAGE][PASSED] - Text 'papahgilak@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:51:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Metrodata Academy/input__password"), password): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:51:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1")): Object: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' is clicked on
+
+25-05-2024T20:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' is clicked on
+
+25-05-2024T20:51:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/button_Keluar")): Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+25-05-2024T20:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Keluar' is clicked on
+
+25-05-2024T20:51:38 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+25-05-2024T20:51:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Normal" time="21.694" classname="Test Cases/Login_Normal" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login_Normal FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Login_Normal.run(Login_Normal:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[25-05-2024T20:52:50 - [TEST_CASE][FAILED] - Test Cases/Login_Normal: Test Cases/Login_Normal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+25-05-2024T20:52:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T20:52:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+25-05-2024T20:52:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+25-05-2024T20:52:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T20:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T20:52:53 - [TEST_STEP][PASSED] - navigateToUrl("https://metrodataacademy.id/metrodata-training/list"): Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:52:56 - [MESSAGE][PASSED] - Navigate to 'https://metrodataacademy.id/metrodata-training/list' successfully
+
+25-05-2024T20:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/a_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/a_Masuk' is clicked on
+
+25-05-2024T20:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Metrodata Academy/input__email"), username): Text 'coba@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:52:58 - [MESSAGE][PASSED] - Text 'coba@gmail.com' is set on object 'Object Repository/Page_Metrodata Academy/input__email'
+
+25-05-2024T20:52:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Metrodata Academy/input__password"), password): Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:52:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Metrodata Academy/input__password'
+
+25-05-2024T20:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Metrodata Academy/button_Masuk")): Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Metrodata Academy/button_Masuk' is clicked on
+
+25-05-2024T20:52:59 - [TEST_STEP][FAILED] - click(findTestObject("Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1")): Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716636903097.run(Script1716636903097.groovy:32)
+	... 18 more
+)
+
+25-05-2024T20:53:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-05-2024T20:53:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'. Try using Self-healing.
+
+25-05-2024T20:53:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]'.
+
+25-05-2024T20:53:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/following::*[name()='svg'][1]'.
+
+25-05-2024T20:53:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='with Metrodata Academy'])[1]/preceding::*[name()='svg'][1]'.
+
+25-05-2024T20:53:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]'.
+
+25-05-2024T20:53:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/following::*[name()='svg'][1]'.
+
+25-05-2024T20:53:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='with Metrodata Academy'])[1]/preceding::*[name()='svg'][1]'.
+
+25-05-2024T20:53:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("headlessui-popover-button-:r3:")/svg[@class="w-5 h-5 ml-1"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-05-2024T20:53:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: svg.w-5.h-5.ml-1'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-05-2024T20:53:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716636903097.run(Script1716636903097.groovy:32)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\RICKY-HARBU\\Katalon Studio\\Final Project Training Batch2\\Reports\\20240525_205055\\TS_Login\\20240525_205055\\1716645191974.png]]]]></system-out>
+         <system-err><![CDATA[25-05-2024T20:52:50 - [TEST_CASE][FAILED] - Test Cases/Login_Normal: Test Cases/Login_Normal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-05-2024T20:50:59 - [TEST_SUITE][FAILED] - TS_Login: Test Cases/Login_Normal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[25-05-2024T20:50:59 - [TEST_SUITE][FAILED] - TS_Login: Test Cases/Login_Normal FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Login_Normal.run(Login_Normal:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716645055742.run(TempTestSuite1716645055742.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Metrodata Academy/svg_M Gilang Rizky Ramadhan_w-5 h-5 ml-1' located by '(.//*[normalize-space(text()) and normalize-space(.)='M Gilang Rizky Ramadhan'])[1]//*[name()='svg'][1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
